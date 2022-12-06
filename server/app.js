@@ -1,5 +1,5 @@
 const EXPRESS = require("express");
-const cors = require("cors");
+// const cors = require("cors");
 
 const CONFIG = require("./config/config");
 
@@ -9,8 +9,14 @@ const { ENV_STATE, SERVER_ENV, SERVER_PORT } = CONFIG.SERVER;
 let env = SERVER_ENV;
 
 const APP = EXPRESS();
-APP.use(
-  cors(
+
+APP.use((req, res, next) => {
+  res.header('Access-Control-Allow-Origin', '*');
+  next();
+});
+
+// APP.use(
+//  cors(
 //  {
 //    origin: [
 //      "https://www.book-store.gokulsreejith.com",
@@ -21,8 +27,8 @@ APP.use(
 //    ],
 //    methods: ["GET", "POST", "PATCH", "POST", "DELETE", "OPTIONS"],
 //  }
-  )
-);
+//  )
+// );
 
 require("./config/database.config")(CONFIG[env]);
 require("./config/express")(APP);
