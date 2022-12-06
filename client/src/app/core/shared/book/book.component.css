@@ -1,0 +1,27 @@
+.book-card {
+  border: 5px solid transparent;
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px;
+  width: 15%;
+}
+
+.book-card img {
+  width: 100%;
+  height: 350px;
+}
+
+.book-card h5 {
+  display: inline-block;
+  font-size: 19px;
+}
+
+.book-card h5, .book-card h6, .book-card p {
+  margin: 10px 10px;
+}
+
+.book-card:hover {
+  background-color: #91A3B0;
+  border-color: #91A3B0;
+  color: #000;
+}

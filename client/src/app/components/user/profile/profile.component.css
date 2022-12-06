@@ -1,0 +1,31 @@
+#profile {
+  margin-top: 40px !important;
+}
+
+#avatar {
+  width: 150px;
+  height: 150px;
+}
+
+#avatar-input {
+  width: 50%;
+  margin: 10px auto;
+}
+
+.admin-panel button {
+  margin-left: 5px;
+}
+
+.favorite-books {
+  margin-bottom: 30px;
+}
+
+.favorite-books h2 {
+  font-family: 'Wendy One', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.no-favorite {
+  margin-bottom: 11.6em;
+}

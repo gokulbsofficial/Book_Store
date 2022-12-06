@@ -1,0 +1,30 @@
+{
+  "name": "book-store-server",
+  "version": "0.1.0",
+  "description": "Express server for Book Store Web App",
+  "main": "app.js",
+  "keywords": [],
+  "author": "GokulSreejith",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "cors": "2.8.3",
+    "dotenv": "^16.0.3",
+    "express": "4.16.3",
+    "jsonwebtoken": "8.3.0",
+    "mongodb": "3.1.0-beta4",
+    "mongoose": "^6.8.0",
+    "mongoose-sequence": "4.0.1",
+    "passport": "0.4.0",
+    "passport-local": "1.0.0",
+    "validator": "10.4.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.11.1",
+    "@types/mongodb": "^3.0.18",
+    "@types/mongoose": "^5.0.15",
+    "eslint": "^4.19.1"
+  }
+}
