@@ -1971,7 +1971,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "environment", function() { return environment; });
 var environment = {
     production: true,
-    serverURL: "https://server.books.gokulsreejith.com/api"
+    serverURL: "https://books.gokulsreejith.com/api"
 };
 
 

@@ -8,7 +8,7 @@ const MONGO_USER = process.env.MONGO_USER || "root";
 const MONGO_PASSWORD = process.env.MONGO_PASSWORD || "password";
 const MONGO_DATABASE = process.env.MONGO_DATABASE || "BookStore";
 const MONGO_PORT = process.env.MONGO_PORT || 27017;
-const MONGO_SVG = process.env.MONGO_SVG || false;
+const MONGO_SRV = process.env.MONGO_SRV || false;
 
 const SERVER = {
   SERVER_ENV,
@@ -22,7 +22,7 @@ const MONGO = {
   MONGO_PASSWORD,
   MONGO_DATABASE,
   MONGO_PORT,
-  MONGO_SVG,
+  MONGO_SRV,
 };
 
 module.exports = {

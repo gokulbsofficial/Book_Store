@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  serverURL: "https://server.books.gokulsreejith.com/api"
+  serverURL: "https://books.gokulsreejith.com/api"
 };

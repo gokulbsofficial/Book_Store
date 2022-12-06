@@ -7,13 +7,13 @@ const {
   MONGO_DATABASE,
   MONGO_PASSWORD,
   MONGO_PORT,
-  MONGO_SVG,
+  MONGO_SRV,
   MONGO_USER,
 } = require("./config").MONGO;
 
 module.exports = (config) => {
   const URI =
-    MONGO_SVG == true
+    MONGO_SRV === "true"
       ? `mongodb+srv://${MONGO_USER}:${MONGO_PASSWORD}@${MONGO_HOST}/${MONGO_DATABASE}?retryWrites=true&w=majority`
       : MONGO_HOST === "localhost"
       ? `mongodb://${MONGO_HOST}:${MONGO_PORT}/${MONGO_DATABASE}`
@@ -28,7 +28,7 @@ module.exports = (config) => {
       throw err;
     }
 
-    console.log("MongoDB is ready!");
+    console.log(`MongoDB is ready! in HOST:[${MONGO_HOST}] database:[${MONGO_DATABASE}]`);
   });
 
   require("../models/Cart");
