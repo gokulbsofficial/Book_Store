@@ -16,8 +16,9 @@ const APP = EXPRESS();
 // });
 
 APP.use(
-  cors({
-    origin: ["*"],
+  cors(
+// {
+//    origin: ["*"],
 // [
 //      "https://www.book-store.gokulsreejith.com",
 //      "https://www.book-store-client.onrender.com",
@@ -25,8 +26,9 @@ APP.use(
 //      "https://book-store-client.onrender.com",
 //      "http://localhost:3000",
 //    ],
-    methods: ["GET", "POST", "PATCH", "POST", "DELETE", "OPTIONS"],
-  })
+//    methods: ["GET", "POST", "PATCH", "POST", "DELETE", "OPTIONS"],
+//  }
+  )
 );
 
 require("./config/database.config")(CONFIG[env]);
