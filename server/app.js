@@ -17,7 +17,7 @@ const APP = EXPRESS();
 
 APP.use(
   cors({
-    origin: "*",
+    origin: ["*"],
 // [
 //      "https://www.book-store.gokulsreejith.com",
 //      "https://www.book-store-client.onrender.com",
