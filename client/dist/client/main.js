@@ -1971,7 +1971,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "environment", function() { return environment; });
 var environment = {
     production: true,
-    serverURL: "https://books.gokulsreejith.com/api"
+    serverURL: "https://books.gokulsreejith.com"
 };
 
 
@@ -2010,7 +2010,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/gokulsreejith/Downloads/NAN MUTHALVAL/Projects/Book-Store/Boot_Store_Final/client/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /home/gokulsreejith/Desktop/FULL_STACK/MEAN/Book_Store/client/src/main.ts */"./src/main.ts");
 
 
 /***/ })

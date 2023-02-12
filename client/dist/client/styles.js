@@ -662,10 +662,10 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/gokulsreejith/Downloads/NAN MUTHALVAL/Projects/Book-Store/Boot_Store_Final/client/src/assets/reset.css */"./src/assets/reset.css");
-__webpack_require__(/*! /home/gokulsreejith/Downloads/NAN MUTHALVAL/Projects/Book-Store/Boot_Store_Final/client/src/assets/bootstrap.min.css */"./src/assets/bootstrap.min.css");
-__webpack_require__(/*! /home/gokulsreejith/Downloads/NAN MUTHALVAL/Projects/Book-Store/Boot_Store_Final/client/node_modules/ngx-toastr/toastr.css */"./node_modules/ngx-toastr/toastr.css");
-module.exports = __webpack_require__(/*! /home/gokulsreejith/Downloads/NAN MUTHALVAL/Projects/Book-Store/Boot_Store_Final/client/src/styles.css */"./src/styles.css");
+__webpack_require__(/*! /home/gokulsreejith/Desktop/FULL_STACK/MEAN/Book_Store/client/src/assets/reset.css */"./src/assets/reset.css");
+__webpack_require__(/*! /home/gokulsreejith/Desktop/FULL_STACK/MEAN/Book_Store/client/src/assets/bootstrap.min.css */"./src/assets/bootstrap.min.css");
+__webpack_require__(/*! /home/gokulsreejith/Desktop/FULL_STACK/MEAN/Book_Store/client/node_modules/ngx-toastr/toastr.css */"./node_modules/ngx-toastr/toastr.css");
+module.exports = __webpack_require__(/*! /home/gokulsreejith/Desktop/FULL_STACK/MEAN/Book_Store/client/src/styles.css */"./src/styles.css");
 
 
 /***/ })
